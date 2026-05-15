@@ -23,7 +23,7 @@ const PORTFOLIO_DATA = {
     profile: {
         name: "Muhammand Abdul Mannan",
         role: "Software Engineer & AI Researcher",
-        description: "Software Engineer. Passionate about architecting intelligent systems, data-driven optimization, and research-oriented problem solving.",
+        description: "I'm a Software Engineer, with a strong interest in building reliable software systems and exploring AI, datadriven technologies, and intelligent systems. I enjoy solving problems, learning new technologies, and turning ideas into practical applications through code.",
         image: "/profile.png"
     },
     capabilities: [
@@ -38,16 +38,16 @@ const PORTFOLIO_DATA = {
             desc: "A comprehensive subscription-based gym management system featuring authentication, meal planning, and tutorial integration.",
             tech: ["PHP", "MySQL", "JavaScript", "HTML/CSS"],
             icon: <Database className="w-8 h-8 opacity-80" />,
-            github: "https://github.com/Mannankhan-sys",
+            github: "https://github.com/Mannankhan-sys/gymbro_SAAS_Web_site",
             demo: "#"
         },
         {
             title: "Gesture Recognition",
             category: "Neural Net",
-            desc: "AI-powered system developed for real-time alphabet and word gesture recognition using Python and Computer Vision.",
+            desc: "AI-powered system developed for real-time  word gesture recognition using Python and Computer Vision.",
             tech: ["Python", "AI/ML", "OpenCV"],
             icon: <BrainCircuit className="w-8 h-8 opacity-80" />,
-            github: "https://github.com/Mannankhan-sys",
+            github: "https://https://github.com/Mannankhan-sys/sign_language_words",
             demo: "#"
         },
         {
@@ -60,12 +60,12 @@ const PORTFOLIO_DATA = {
             demo: "#"
         },
         {
-            title: "Library Management",
-            category: "Architecture",
-            desc: "Object-oriented system designed to manage book records, users, and borrowing history with Java inheritance patterns.",
-            tech: ["Java", "OOP", "Swing GUI"],
+            title: "Aesthetic AI | Professional Style Advisor",
+            category: "Neural Net",
+            desc: "AI-powered system developed for real-time hairstyle recommendations and facial symmetry analysis using Python and Computer Vision.",
+            tech: ["Python", "AI/ML", "OpenCV"],
             icon: <Layers className="w-8 h-8 opacity-80" />,
-            github: "https://github.com/Mannankhan-sys",
+            github: "https://github.com/Mannankhan-sys/FaceShape-Hairstyle-Advisor",
             demo: "#"
         }
     ],
@@ -369,7 +369,7 @@ const BusinessCard = () => (
 
                 <div className="md:text-right flex flex-col justify-end">
                     <p className="text-[10px] font-mono text-neutral-300 uppercase tracking-[0.4em] mb-2 font-bold italic underline decoration-[#c5a059]"></p>
-                    <p className="text-xs font-black tracking-widest text-[#c5a059]">© 2026 ARCHITECT</p>
+                    <p className="text-xs font-black tracking-widest text-[#c5a059]"></p>
                 </div>
             </div>
         </motion.div>
@@ -396,10 +396,10 @@ const PortfolioContent = () => {
                 <header className="mb-32 flex flex-col md:flex-row gap-16 items-center">
                     <div className="flex-1 text-center md:text-left">
                         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 backdrop-blur-md border border-white/10 text-[#c5a059] text-xs font-mono mb-8 uppercase tracking-[0.3em]">
-                            <Sparkles className="w-3 h-3 animate-pulse" /> Senior System Architect
+                            <Sparkles className="w-3 h-3 animate-pulse" /> System Sculptor
                         </div>
                         <h2 className="text-6xl md:text-9xl font-black mb-8 leading-[0.8] tracking-tighter text-white">
-                            M. ABDUL <br /> <GoldText>MANNAN.</GoldText>
+                            M. ABDUL <br /> <GoldText>MANNAN</GoldText>
                         </h2>
                         <p className="text-xl text-neutral-400 max-w-xl leading-relaxed font-medium">
                             {PORTFOLIO_DATA.profile.description}
@@ -443,8 +443,8 @@ const PortfolioContent = () => {
                 <section className="mb-40">
                     <div className="flex items-end justify-between mb-20 border-b border-white/10 pb-12">
                         <div>
-                            <h3 className="text-xs font-mono text-[#c5a059] uppercase tracking-[0.5em] mb-4 font-bold">Scientific Repository</h3>
-                            <h4 className="text-5xl md:text-7xl font-black tracking-tighter text-white">NEURAL WORKS</h4>
+                            <h3 className="text-xs font-mono text-[#c5a059] uppercase tracking-[0.5em] mb-4 font-bold"> CRAFTED SCULPTURES</h3>
+                            <h4 className="text-5xl md:text-7xl font-black tracking-tighter text-white">CHISELED SYSTEMS</h4>
                         </div>
                         <div className="hidden md:flex gap-4">
                             <div className="text-right">
